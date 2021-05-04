@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="JS/findIndex.js"></script>
+
+</head>
+<body>
+<script>
+    let a = prompt("Nhập số cần kiểm tra: ");
+    let numbers = [1, 2, 3, 6, 4, 8, 5, 2, 1]
+    if (finIndex(a, numbers)) {
+        alert("Vị trí của số " + a + " trong mảng là " + finIndex(a, numbers));
+    } else {
+        alert("Số cần tìm không có trong mảng!");
+    }
+</script>
+</body>
+</html>
